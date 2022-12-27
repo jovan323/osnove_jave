@@ -23,6 +23,7 @@ public class Zadatak7 {
 //            return 0;
 //        }
 //    }
+
     public static int izbroji(int m, int n){
         return Math.abs(m-n) - 1;
     }
