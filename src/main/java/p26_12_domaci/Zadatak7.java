@@ -14,7 +14,7 @@ public class Zadatak7 {
         System.out.print("Unesite broj n: ");
         int n = sc.nextInt();
 
-        System.out.println(izbroji(m,n) - 1);
+        System.out.println(izbroji(m,n));
     }
 //    public static int izbroji (int m, int n) {
 //        if (n > m) {
@@ -24,7 +24,7 @@ public class Zadatak7 {
 //        }
 //    }
     public static int izbroji(int m, int n){
-        return Math.abs(m-n);
+        return Math.abs(m-n) - 1;
     }
 
 }
