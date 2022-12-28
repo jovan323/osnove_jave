@@ -16,4 +16,4 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 .idea
-.src/main/java/prvi_Java_Test
+.java/prvi_Java_Test
