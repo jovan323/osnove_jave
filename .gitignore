@@ -1,4 +1,5 @@
 target/
+pom.xml
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -16,4 +17,4 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 .idea
-.java/prvi_Java_Test
+.prvi_Java_Test
