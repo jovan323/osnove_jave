@@ -12,13 +12,11 @@ public class Z2 {
         System.out.println(klima1.vecaManja(25));
 
         Z2SmartAirCond klima2 = new Z2SmartAirCond();
-        klima1.marka = "Fuego Espana";
-        klima1.temp = 20;
-        klima1.mod = "Greje";
+        klima2.marka = "Fuego Espana";
+        klima2.temp = 20;
+        klima2.mod = "Greje";
 
-        klima1.stampaj();
-        System.out.println(klima1.vecaManja(15));
-
-
+        klima2.stampaj();
+        System.out.println(klima2.vecaManja(15));
     }
 }
