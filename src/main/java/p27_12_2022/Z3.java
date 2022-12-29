@@ -41,28 +41,49 @@ public class Z3 {
         auto.marka = "BMW";
         auto.brojVrata = 5;
         auto.potrosnja = 7;
-        auto.trenBrz = 120;
+        auto.trenBrz = 80;
         auto.godProiz = 2000;
+        auto.mesecReg = 7;
         auto.kubikaza = 1399;
+        auto.brReg = "NI-123-SO";
+        auto.maxBrz = 240;
+        auto.kapacitet = 40;
+        auto.trenGor = 15;
 
-        auto.stampa();
+//        auto.stampa();
+//
+//        if (auto.prekoracenje(100)){
+//            System.out.println("Prekoračena je brzina.");
+//        } else {
+//            System.out.println("Nije prekoračena brzina");
+//        }
+//
+//        System.out.println("Novčana kazna iznosi: "
+//                            + auto.kazna(100));
+//
+//        if(auto.isOldTimer()) {
+//            System.out.println("Auto nije oldtajmer.");
+//        } else {
+//            System.out.println("Auto je oldtajmer.");
+//        }
+//
+//        if (auto.isteklaReg(12)) {
+//            System.out.println("Istekla je registracija.");
+//        } else {
+//            System.out.println("Nije istekla registracija");
+//        }
+//
+//        System.out.println("Registracija je "
+//                + auto.cenaReg() + " dinara.");
+//
+//        auto.otvoriGepek();
+//        auto.dodajGas();
+//        auto.oduzmiGas();
+//
+//        System.out.println("Trenutna potrošnja je: " + auto.trenPotrosnja());
 
-        if (auto.prekoracenje(100) == true){
-            System.out.println("Prekoračena je brzina.");
-        } else {
-            System.out.println("Nije prekoračena brzina");
-        }
+//        auto.tahimetar();
 
-        System.out.println("Novčana kazna iznosi: "
-                            + auto.kazna(100));
-
-        if(auto.isOldTimer()) {
-            System.out.println("Auto nije oldtajmer.");
-        } else {
-            System.out.println("Auto je oldtajmer.");
-        }
-
-        System.out.println("Registracija je "
-                + auto.cenaReg() + " dinara.");
+        System.out.println("Cena točenja je: " + auto.natociGor(30) + " dinara");
     }
 }
