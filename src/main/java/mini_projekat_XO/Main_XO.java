@@ -25,7 +25,7 @@ public class Main_XO {
                 tabla.odigrajPotez(potez);
                 tabla.zameniIgraca();
             } else {
-                System.out.print("Nedozvoljen potez - polje je zauzeto");
+                System.out.println("Nedozvoljen potez - polje je zauzeto");
             }
             tabla.stampaj();
         }
